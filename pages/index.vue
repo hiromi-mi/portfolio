@@ -20,6 +20,13 @@
           GitHub
         </a>
       </div>
+      <div class="langs">
+      <div class="content"><strong>hannado-fukui</strong><br>
+   Small Compiler
+      </div>
+      <div class="content"><strong>zovtyj</strong> <br> Small Mastodon Viewer</div>
+      </div>
+      </div>
     </div>
   </div>
 </template>
@@ -65,5 +72,10 @@ export default Vue.extend({
 
 .links {
   padding-top: 15px;
+}
+
+@extend media-content
+.langs {
+  justify-content: center;
 }
 </style>
