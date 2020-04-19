@@ -1,16 +1,14 @@
 // for GitHub Pages https://ja.nuxtjs.org/faq/github-pages/
-const routerBase = process.env.DEPLOY_ENV === 'GH_PAGES' ? {
-  router: {
-    base: '/portfolio/'
-  }
-} : {}
-
+const routerBase = process.env.DEPLOY_ENV === 'GH_PAGES' ? '/portfolio/' : '/'
 
 export default {
   mode: 'spa',
   /*
    ** Headers of the page
    */
+  router: {
+    base: routerBase
+  },
   head: {
     title: process.env.npm_package_name || '',
     meta: [
@@ -62,6 +60,5 @@ export default {
      ** You can extend webpack config here
      */
     extend(config, ctx) {},
-    ...routerBase
   }
 }
