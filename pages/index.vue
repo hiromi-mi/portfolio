@@ -24,9 +24,11 @@
       </div>
       <div class="langs">
       <div class="content"><strong>hannado-fukui</strong><br>
-   Small Compiler
+   Small C/C++ subset Compiler
       </div>
-      <div class="content"><strong>zovtyj</strong> <br> Small Mastodon Viewer</div>
+      <div class="content"><strong>zovtyj</strong> <br> Small Mastodon Viewer written in Golang</div>
+      </div>
+      <div class="content"><strong>zoltyj</strong> <br> Small Mastodon Viewer written in Ruby</div>
       </div>
       </div>
     </div>
