@@ -23,8 +23,11 @@
         </a>
       </div>
       <div class="langs">
-      <div class="content"><strong>hannado-fukui</strong><br>
+      <div class="content"><strong>hanando-fukui</strong><br>
    Small C/C++ subset Compiler
+      </div>
+      <div class="content"><strong>online-hf</strong><br>
+      Online-based Compiler on Hanando-fukui
       </div>
       <div class="content"><strong>zovtyj</strong> <br> Small Mastodon Viewer written in Golang</div>
       </div>
