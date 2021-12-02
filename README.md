@@ -1,6 +1,8 @@
-# portfolio
+# portfolio [obsolete]
 
 > Portfolio Page of hiromi-mi
+
+These pages are now obsolete. 
 
 ## Build Setup
 
